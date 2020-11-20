@@ -1,0 +1,15 @@
+{
+    "name": "coba-tailwind",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "build-css": "postcss styles/tailwind.css -o styles/compiled.css"
+    },
+    "dependencies": {
+        "autoprefixer": "^10.0.2",
+        "postcss": "^8.1.8",
+        "postcss-cli": "^8.3.0",
+        "tailwindcss": "^2.0.1"
+    }
+}
