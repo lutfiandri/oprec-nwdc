@@ -1,0 +1,62 @@
+@import "./utility";
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+@import "./seca";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background: $bg-100;
+    font-family: "Patrick Hand";
+    font-size: $font-size-4;
+    color: $text-red;
+}
+
+section {
+    width: 100vw;
+    position: relative;
+    // border: 1px solid black;
+    .separator {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+        // background: black;
+    }
+}
+
+.container {
+    z-index: 10;
+    * {
+        z-index: 20;
+    }
+
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    // z-index: 10;
+}
+
+.title {
+    grid-area: title;
+}
+
+.text {
+    grid-area: text;
+}
+
+.text1 {
+    grid-area: text1;
+}
+
+.text2 {
+    grid-area: text2;
+}
+
+.box {
+    grid-area: box;
+}
