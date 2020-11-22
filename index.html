@@ -54,18 +54,71 @@
         </section>
 
         <section class="secc">
-            <div class="container grid gap-4 grid-cols-2 p-10">
-                <div class="bg-blue-700 p-4 col-span-2">Judul</div>
-                <div class="bg-blue-700 p-4 flex flex-col space-y-2">
-                    <div class="h-64 w-full bg-yellow-600"></div>
-                    <div class="text-2xl">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        A recusandae eos cum deleniti nihil neque corrupti, ex
-                        alias sed rerum maxime voluptatem dolorem vitae
-                        accusantium reiciendis nobis mollitia iusto dolor?
+            <div
+                class="container min-h-screen grid gap-4 grid-cols-1 md:grid-cols-2 py-10"
+            >
+                <div class="p-4 md:col-span-2 text-center text-4xl">
+                    Front-end vs Back-end
+                </div>
+                <div
+                    class="flex flex-col space-y-2 rounded-md shadow-lg px-6 py-10 bg-yellow-50"
+                >
+                    <img src="./img/frontend.svg" class="md:h-48 mx-auto" />
+                    <div class="text-center text-3xl">Front-end</div>
+                    <div class="text-2xl text-center">
+                        Apapun itu yang nampak pada layar browser. Menurutku
+                        intinya adalah merealisasikan UIUX. Namun, cara
+                        merealisasikannya bermacam2. Yang menurutku harus
+                        dikuasai itu styling, es6, component, dan menggunakan
+                        rest API.
                     </div>
                 </div>
-                <div class="bg-blue-700 p-4"></div>
+                <div
+                    class="flex flex-col space-y-2 rounded-md shadow-lg px-6 py-10 bg-yellow-50"
+                >
+                    <img src="./img/backend.svg" class="md:h-48 mx-auto" />
+                    <div class="text-center text-3xl">Back-end</div>
+                    <div class="text-2xl text-center">
+                        Apapun itu yang tidak nampak pada layar browser.
+                        Menurutku intinya adalah mengolah semua data sehingga
+                        bisa digunakan front-end secara mudah. Cara mengirimkan
+                        data ini melalui rest API. Yang menurutku harus
+                        diakuasai yaitu mengolah data dan menangani semua
+                        request dari rest API dengan tepat.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="secd">
+            <div class="container flex flex-col py-10 bg-yellow-50 space-y-4">
+                <div class="text-4xl text-red-700 text-center">Tech Stack</div>
+                <div class="flex flex-wrap justify-center">
+                    <div
+                        class="w-2/3 m-2 md:w-2/5 lg:w-1/4 rounded-lg bg-yellow-100 shadow-lg py-4 px-8 flex items-center justify-center space-x-4"
+                    >
+                        <img src="./img/tailwind.svg" class="h-12" />
+                        <div class="text-3xl">Tailwindcss</div>
+                    </div>
+                    <div
+                        class="w-2/3 m-2 md:w-2/5 lg:w-1/4 rounded-lg bg-yellow-100 shadow-lg py-4 px-8 flex items-center justify-center space-x-4"
+                    >
+                        <img src="./img/yarn.svg" class="h-12" />
+                        <div class="text-3xl">Yarn</div>
+                    </div>
+                    <div
+                        class="w-2/3 m-2 md:w-2/5 lg:w-1/4 rounded-lg bg-yellow-100 shadow-lg py-4 px-8 flex items-center justify-center space-x-4"
+                    >
+                        <img src="./img/figma.svg" class="h-12" />
+                        <div class="text-3xl">Figma</div>
+                    </div>
+                    <div
+                        class="w-2/3 m-2 md:w-2/5 lg:w-1/4 rounded-lg bg-yellow-100 shadow-lg py-4 px-8 flex items-center justify-center space-x-4"
+                    >
+                        <img src="./img/vscode.svg" class="h-12" />
+                        <div class="text-3xl">VS Code</div>
+                    </div>
+                </div>
             </div>
         </section>
     </body>
