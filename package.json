@@ -5,14 +5,12 @@
     "license": "MIT",
     "scripts": {
         "build-css": "postcss styles/tailwind.css -o styles/compiled.css",
-        "build-purge": "NODE_ENV=production tailwindcss build styles/tailwind.css -o styles/purged.css",
-        "build-lagi": "NODE_ENV=production npx tailwindcss-cli@latest build ./styles/tailwind.css -o ./styles/purged2.css"
+        "build-purge": "NODE_ENV=production tailwindcss build styles/tailwind.css -o styles/purged.css"
     },
     "dependencies": {
         "autoprefixer": "^10.0.2",
         "postcss": "^8.1.8",
         "postcss-cli": "^8.3.0",
-        "postcss-import": "^14.0.0",
         "tailwindcss": "^2.0.1"
     }
 }
